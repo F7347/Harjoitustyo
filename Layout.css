@@ -1,0 +1,21 @@
+﻿
+h1
+{
+color:red;
+}
+.element
+{
+      margin: 0 auto;
+}
+
+body {
+    text-align: center;
+    background-image:url('http://localhost:1206/Images/bg.jpg');
+
+}
+
+#container {
+    width: 500px; /* or some other fixed-width value */
+    margin: 0 auto;
+    text-align: left; /* reset text-align */
+}
