@@ -6,15 +6,17 @@
     <h1>Uutisia!</h1>
 
 
-    <asp:DataList ID="DataList1" runat="server" DataSourceID="XmlDataSource1">
+
+<asp:DataList ID="DataList1" runat="server" DataSourceID="XmlDataSource1">
+    
     <ItemTemplate>
         Title: <a href="<%# XPath("link") %>"><%# XPath("title") %></a><br />
         Pulish Date: <%# XPath("pubDate") %><br />
         Description: <%# XPath("description") %>
         <hr />
     </ItemTemplate>
-</asp:DataList>
 
+</asp:DataList>
 
        
 <asp:XmlDataSource ID="XmlDataSource1" Runat="server"

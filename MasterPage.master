@@ -12,18 +12,31 @@
 <body>
     <form id="form1" runat="server">
     <div>
+        
 
-        <asp:Image ID="MasterHeader" runat="server" ImageUrl="~/Images/MasterHeader.jpg" />
+        <asp:Image ID="MasterHeader" runat="server" ImageUrl="~/Images/Banner2.png" />
         <br />
         <asp:HyperLink id="hyperlink1" 
-                  ImageUrl="~/Images/Home.jpg"
+                  ImageUrl="~/Images/Etusivu.png"
                   NavigateUrl="http://localhost:1206/Default.aspx"
                   Text="Home"
                   runat="server"/>
         
         <asp:HyperLink id="hyperlink2" 
-                  ImageUrl="~/Images/Uutiset.jpg"
+                  ImageUrl="~/Images/Uutiset.png"
                   NavigateUrl="http://localhost:1206/Uutiset.aspx"
+                  Text="Uutiset"
+                  runat="server"/> 
+        
+        <asp:HyperLink id="hyperlink3" 
+                  ImageUrl="~/Images/KuvaGalleria.png"
+                  NavigateUrl="http://localhost:1206/KuvaGalleria.aspx"
+                  Text="Uutiset"
+                  runat="server"/> 
+        
+        <asp:HyperLink id="hyperlink4" 
+                  ImageUrl="~/Images/Elokuvarekisteri.png"
+                  NavigateUrl="http://localhost:1206/Elokuvarekisteri.aspx"
                   Text="Uutiset"
                   runat="server"/>  
 
